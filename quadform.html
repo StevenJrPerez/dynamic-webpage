@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quadratic Formula Calculator</title>
+	<script type="text/javascript" src="quadform.js"></script>
+    </head>
+
+    <body>
+	<h2>Quadratic Formula Calculator</h2>
+	<img src="quadraticFormula.png" height=150px><br>
+	<div id="formFields">
+
+  		<label for="length">a=</label>
+  		<input type="text" id="length" name="length" style="width: 50px;"><br>
+
+  		<label for="width">b=</label>
+  		<input type="text" id="width" name="width" style="width: 50px;"><br>
+
+	</div>
+
+	<button type="button" onclick="calculateAnswer(document.getElementById('length').value,document.getElementById('width').value)">Calculate</button>
+
+	<p id="output1">Enter the <strong>a</strong>, and <strong>b</strong> values. </p>
+
+    </body>
+</html>
+
+
